@@ -1,0 +1,20 @@
+class Super11
+{
+ 	 static int x=10;
+}
+
+class Child extends Super11
+{
+ 	static int x=15;
+	public static void m1()
+	{
+		System.out.println(super.x);
+	}
+
+
+	public static void main(String[] ar)
+	{       Child c=new Child();
+	 	c.m1();	
+	}
+
+}
